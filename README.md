@@ -2,9 +2,9 @@
 
 `virtualenv venv`
 
-`<clone repo in venv directory>` or (for personal use): `cp -a twitterdata/. venv/twitterdata/`
-
 `cd venv`
+
+`git clone https://github.com/atvanguard/twitterdata.git` or (for personal use): `cp -a twitterdata/. venv/twitterdata/`
 
 `source bin/activate`
 
@@ -47,5 +47,7 @@ This will start the server at localhost:8800
 a) localhost:8800/track?user=twitterapi
 
 b) localhost:8800/tracked
+
+`cd ..`
 
 `deactivate` the virtualenv
